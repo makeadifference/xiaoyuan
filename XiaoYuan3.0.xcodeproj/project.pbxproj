@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		35603B811E6461AC007C9525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35603B801E6461AC007C9525 /* LaunchScreen.storyboard */; };
 		35603B831E6463EA007C9525 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35603B821E6463EA007C9525 /* UserViewController.swift */; };
+		3566974C1E6571E60000CD83 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3566974B1E6571E60000CD83 /* PeopleViewController.swift */; };
+		3566974E1E6571F80000CD83 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3566974D1E6571F80000CD83 /* MessagesViewController.swift */; };
+		356697521E6573340000CD83 /* XiaoxiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356697501E6573340000CD83 /* XiaoxiCell.swift */; };
+		356697531E6573340000CD83 /* XiaoxiCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356697511E6573340000CD83 /* XiaoxiCell.xib */; };
+		356697561E6573590000CD83 /* MomentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356697541E6573590000CD83 /* MomentCell.swift */; };
+		356697571E6573590000CD83 /* MomentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356697551E6573590000CD83 /* MomentCell.xib */; };
 		357B82C01E6553ED009CDE59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357B82BF1E6553ED009CDE59 /* Main.storyboard */; };
 		35A2B6EC1E6535B200E98ED0 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A2B6EB1E6535B200E98ED0 /* NavigationViewController.swift */; };
 		35B354D91E643F8500744D2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B354D81E643F8500744D2B /* AppDelegate.swift */; };
@@ -23,6 +29,12 @@
 /* Begin PBXFileReference section */
 		35603B801E6461AC007C9525 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35603B821E6463EA007C9525 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		3566974B1E6571E60000CD83 /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		3566974D1E6571F80000CD83 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		356697501E6573340000CD83 /* XiaoxiCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XiaoxiCell.swift; sourceTree = "<group>"; };
+		356697511E6573340000CD83 /* XiaoxiCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XiaoxiCell.xib; sourceTree = "<group>"; };
+		356697541E6573590000CD83 /* MomentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentCell.swift; sourceTree = "<group>"; };
+		356697551E6573590000CD83 /* MomentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MomentCell.xib; sourceTree = "<group>"; };
 		357B82BF1E6553ED009CDE59 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		35A2B6EB1E6535B200E98ED0 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		35B354D51E643F8500744D2B /* XiaoYuan3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiaoYuan3.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +59,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3566974A1E6571C70000CD83 /* segment */ = {
+			isa = PBXGroup;
+			children = (
+				3566974B1E6571E60000CD83 /* PeopleViewController.swift */,
+				3566974D1E6571F80000CD83 /* MessagesViewController.swift */,
+			);
+			name = segment;
+			sourceTree = "<group>";
+		};
+		3566974F1E6572E40000CD83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				356697501E6573340000CD83 /* XiaoxiCell.swift */,
+				356697511E6573340000CD83 /* XiaoxiCell.xib */,
+				356697541E6573590000CD83 /* MomentCell.swift */,
+				356697551E6573590000CD83 /* MomentCell.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		35B354CC1E643F8500744D2B = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +98,8 @@
 		35B354D71E643F8500744D2B /* XiaoYuan3.0 */ = {
 			isa = PBXGroup;
 			children = (
+				3566974F1E6572E40000CD83 /* Supporting Files */,
+				3566974A1E6571C70000CD83 /* segment */,
 				35B354D81E643F8500744D2B /* AppDelegate.swift */,
 				35B354DA1E643F8500744D2B /* ViewController.swift */,
 				35B354DF1E643F8500744D2B /* Assets.xcassets */,
@@ -142,7 +176,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				357B82C01E6553ED009CDE59 /* Main.storyboard in Resources */,
+				356697531E6573340000CD83 /* XiaoxiCell.xib in Resources */,
 				35603B811E6461AC007C9525 /* LaunchScreen.storyboard in Resources */,
+				356697571E6573590000CD83 /* MomentCell.xib in Resources */,
 				35B354E01E643F8500744D2B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,13 +190,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3566974E1E6571F80000CD83 /* MessagesViewController.swift in Sources */,
 				35A2B6EC1E6535B200E98ED0 /* NavigationViewController.swift in Sources */,
 				35603B831E6463EA007C9525 /* UserViewController.swift in Sources */,
 				35B354ED1E643FE600744D2B /* FriendsViewController.swift in Sources */,
 				35B354DB1E643F8500744D2B /* ViewController.swift in Sources */,
 				35B354EF1E643FF700744D2B /* MomentViewController.swift in Sources */,
+				3566974C1E6571E60000CD83 /* PeopleViewController.swift in Sources */,
+				356697561E6573590000CD83 /* MomentCell.swift in Sources */,
 				35B354D91E643F8500744D2B /* AppDelegate.swift in Sources */,
 				35B354F11E64407100744D2B /* TabBarViewController.swift in Sources */,
+				356697521E6573340000CD83 /* XiaoxiCell.swift in Sources */,
 				35B354EB1E643FCD00744D2B /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

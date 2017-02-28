@@ -8,8 +8,18 @@
 
 import UIKit
 
-class UserViewController: UIViewController {
+class UserViewController: UIViewController ,UITableViewDelegate, UITableViewDataSource{
 
+    let settingitem : [[String : String]] = [
+        [ "key" : "用户头像"],
+        [ "key" : "昵称"],
+        [ "key" : "个性签名"],
+        ["key" : "我的动态"],
+        ["key" : "设置生日"],
+        ["key" : "家乡省市"],
+        ["key" : "选择学校"]
+        
+    ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,6 +55,24 @@ class UserViewController: UIViewController {
     
     func goBack(){
        self.navigationController?.popViewController(animated: true )
+    }
+    
+    
+    
+    //  TableView
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.settingitem.count
+    }
+    
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let dictionary = self.settingitem[indexPath.row]
+        
+        let cell1 = tableView.dequeueReusableCell(withIdentifier: "cell1")
+        cell1?.textLabel?.text = dictionary["key"]
+    
+        return cell1!
     }
     /*
     // MARK: - Navigation

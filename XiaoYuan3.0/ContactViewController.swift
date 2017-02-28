@@ -11,6 +11,9 @@ import UIKit
 class ContactViewController: UIViewController {
 
     @IBOutlet weak var Userbtn: UIBarButtonItem!
+    @IBOutlet weak var people: UIView!
+    @IBOutlet weak var messages: UIView!
+    @IBOutlet weak var segmentControl: UISegmentedControl!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,5 +46,14 @@ class ContactViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    @IBAction func segment(_ sender: Any) {
+        if segmentControl.selectedSegmentIndex == 0 {
+            messages.isHidden = false
+            people.isHidden = true
+        }else {
+           people.isHidden = false
+            messages.isHidden = true
+        }
+    }
 
 }
