@@ -69,7 +69,7 @@ class UserViewController: UIViewController ,UITableViewDelegate, UITableViewData
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let dictionary = self.settingitem[indexPath.row]
         
-        let cell1 = tableView.dequeueReusableCell(withIdentifier: "cell1")
+        let cell1 = tableView.dequeueReusableCell(withIdentifier: "touxiang")
         cell1?.textLabel?.text = dictionary["key"]
     
         return cell1!

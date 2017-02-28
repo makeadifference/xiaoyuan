@@ -9,6 +9,15 @@
 import UIKit
 
 class PeopleViewController: UIViewController ,UITableViewDataSource , UITableViewDelegate{
+    
+    
+    let testpeople : [[String : String]] = [
+        ["key" : "user1"],
+        ["key" : "user2"],
+        ["key" : "user3"]
+    
+    
+    ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,12 +35,16 @@ class PeopleViewController: UIViewController ,UITableViewDataSource , UITableVie
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        return self.testpeople.count
+        
     }
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let dictionary = self.testpeople[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "peoplecell")
+        cell?.textLabel?.text = dictionary["key"]
+        return cell!
     }
     /*
     // MARK: - Navigation

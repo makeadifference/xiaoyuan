@@ -10,6 +10,10 @@ import UIKit
 
 class MessagesViewController: UIViewController , UITableViewDelegate, UITableViewDataSource{
 
+    let testMessage : [[String : String ]] = [
+        ["key" : "user1" ],
+        ["key" : "user1" ]
+    ]
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,12 +31,16 @@ class MessagesViewController: UIViewController , UITableViewDelegate, UITableVie
     // TableView
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        return self.testMessage.count
     }
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        
+        let dictionary = self.testMessage[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "messagescell")
+        cell?.textLabel?.text = dictionary["key"]
+        return cell!
     }
     /*
     // MARK: - Navigation
