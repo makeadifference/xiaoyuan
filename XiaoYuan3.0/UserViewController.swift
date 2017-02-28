@@ -16,6 +16,15 @@ class UserViewController: UIViewController {
         //重新实现返回按钮
         let backButton = UIBarButtonItem(title: "く返回", style: UIBarButtonItemStyle.plain, target: self, action: #selector(goBack))
         self.navigationItem.leftBarButtonItem = backButton
+        
+        //设置按钮      
+        let settingButton = UIBarButtonItem(title: "设置", style: UIBarButtonItemStyle.plain, target: self, action: #selector(setting))
+        self.navigationItem.rightBarButtonItem = settingButton
+        
+        //设置导航栏标题
+        self.navigationItem.title = "用户信息"
+        
+        
         // Do any additional setup after loading the view.
     }
 
@@ -30,6 +39,9 @@ class UserViewController: UIViewController {
         
     }
 
+    func setting(){
+        
+    }
     
     func goBack(){
        self.navigationController?.popViewController(animated: true )
