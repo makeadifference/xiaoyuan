@@ -15,6 +15,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        //所有视图的根容器
+        let TabBar = TabBarViewController()
+        
+        
+        //以下的视图以tabbar为根容器
+        //交友ViewController
+        let FriendsVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "FriendsViewController") as! FriendsViewController
+        //信息ViewController //实例化NavigationViewController 同时会实例化ContactViewController
+        let ContactVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier:"NavigationViewController") as!   NavigationViewController
+        //动态ViewController
+        let MomentVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MomentViewController") as! MomentViewController
+        
+        TabBar.viewControllers = [ ContactVC , FriendsVC , MomentVC]
+        self.window?.rootViewController = TabBar
+ 
+        
+       // 设置tabbar 标签
+        ContactVC.tabBarItem.title = "信息"
+        MomentVC.tabBarItem.title = "动态"
+        FriendsVC.tabBarItem.title = "交友"
+    
+        
         // Override point for customization after application launch.
         return true
     }
