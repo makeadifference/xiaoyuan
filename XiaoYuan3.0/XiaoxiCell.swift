@@ -9,6 +9,9 @@
 import UIKit
 
 class XiaoxiCell: UITableViewCell {
+    
+    
+    // Mark 自定义消息单元格
 
     @IBOutlet weak var userImage: UIImageView!
     @IBOutlet weak var userName: UILabel!

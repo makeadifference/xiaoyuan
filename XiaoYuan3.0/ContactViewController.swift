@@ -17,9 +17,12 @@ class ContactViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        messages.isHidden = false
+        people.isHidden = true
+        
         // Do any additional setup after loading the view.
     }
-    
+   
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
        //从设置界面返回时显示tabbar
@@ -34,25 +37,19 @@ class ContactViewController: UIViewController {
     @IBAction func Usercenter(_ sender: Any) {
         let UserVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "UserViewController") as! UserViewController
         self.navigationController?.pushViewController(UserVC, animated: true)
+        //在显示UserVC 时隐藏tabbar
         self.tabBarController?.tabBar.isHidden = true 
     }
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
     @IBAction func segment(_ sender: Any) {
+        //实现信息界面与联系人界面的切换
         if segmentControl.selectedSegmentIndex == 0 {
             messages.isHidden = false
             people.isHidden = true
         }else {
+           messages.isHidden = true
            people.isHidden = false
-            messages.isHidden = true
         }
     }
 

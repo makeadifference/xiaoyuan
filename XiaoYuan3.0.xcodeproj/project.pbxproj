@@ -15,10 +15,14 @@
 		356697531E6573340000CD83 /* XiaoxiCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356697511E6573340000CD83 /* XiaoxiCell.xib */; };
 		356697561E6573590000CD83 /* MomentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356697541E6573590000CD83 /* MomentCell.swift */; };
 		356697571E6573590000CD83 /* MomentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356697551E6573590000CD83 /* MomentCell.xib */; };
+		357007A21E6B1CBB008DE091 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357007A11E6B1CBB008DE091 /* LoginViewController.swift */; };
 		357B82C01E6553ED009CDE59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357B82BF1E6553ED009CDE59 /* Main.storyboard */; };
 		35A2B6EC1E6535B200E98ED0 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A2B6EB1E6535B200E98ED0 /* NavigationViewController.swift */; };
+		35A3A4E21E6B91B600C9E616 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A3A4E11E6B91B600C9E616 /* Login.storyboard */; };
+		35A4BD841E684FD200FDE934 /* UserImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A4BD821E684FD200FDE934 /* UserImageCell.swift */; };
+		35A4BD851E684FD200FDE934 /* UserImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35A4BD831E684FD200FDE934 /* UserImageCell.xib */; };
+		35A4BD871E68555D00FDE934 /* MomentModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A4BD861E68555D00FDE934 /* MomentModal.swift */; };
 		35B354D91E643F8500744D2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B354D81E643F8500744D2B /* AppDelegate.swift */; };
-		35B354DB1E643F8500744D2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B354DA1E643F8500744D2B /* ViewController.swift */; };
 		35B354E01E643F8500744D2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B354DF1E643F8500744D2B /* Assets.xcassets */; };
 		35B354EB1E643FCD00744D2B /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B354EA1E643FCD00744D2B /* ContactViewController.swift */; };
 		35B354ED1E643FE600744D2B /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B354EC1E643FE600744D2B /* FriendsViewController.swift */; };
@@ -35,11 +39,15 @@
 		356697511E6573340000CD83 /* XiaoxiCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XiaoxiCell.xib; sourceTree = "<group>"; };
 		356697541E6573590000CD83 /* MomentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentCell.swift; sourceTree = "<group>"; };
 		356697551E6573590000CD83 /* MomentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MomentCell.xib; sourceTree = "<group>"; };
+		357007A11E6B1CBB008DE091 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		357B82BF1E6553ED009CDE59 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		35A2B6EB1E6535B200E98ED0 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		35A3A4E11E6B91B600C9E616 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		35A4BD821E684FD200FDE934 /* UserImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserImageCell.swift; sourceTree = "<group>"; };
+		35A4BD831E684FD200FDE934 /* UserImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserImageCell.xib; sourceTree = "<group>"; };
+		35A4BD861E68555D00FDE934 /* MomentModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentModal.swift; sourceTree = "<group>"; };
 		35B354D51E643F8500744D2B /* XiaoYuan3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiaoYuan3.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B354D81E643F8500744D2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		35B354DA1E643F8500744D2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		35B354DF1E643F8500744D2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35B354E41E643F8500744D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35B354EA1E643FCD00744D2B /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
@@ -75,8 +83,24 @@
 				356697511E6573340000CD83 /* XiaoxiCell.xib */,
 				356697541E6573590000CD83 /* MomentCell.swift */,
 				356697551E6573590000CD83 /* MomentCell.xib */,
+				35A4BD821E684FD200FDE934 /* UserImageCell.swift */,
+				35A4BD831E684FD200FDE934 /* UserImageCell.xib */,
+				35A4BD861E68555D00FDE934 /* MomentModal.swift */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35A3A4E31E6B956C00C9E616 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				35B354EA1E643FCD00744D2B /* ContactViewController.swift */,
+				35B354EC1E643FE600744D2B /* FriendsViewController.swift */,
+				35B354EE1E643FF700744D2B /* MomentViewController.swift */,
+				35603B821E6463EA007C9525 /* UserViewController.swift */,
+				35B354F01E64407100744D2B /* TabBarViewController.swift */,
+				35A2B6EB1E6535B200E98ED0 /* NavigationViewController.swift */,
+			);
+			name = TabBar;
 			sourceTree = "<group>";
 		};
 		35B354CC1E643F8500744D2B = {
@@ -98,19 +122,15 @@
 		35B354D71E643F8500744D2B /* XiaoYuan3.0 */ = {
 			isa = PBXGroup;
 			children = (
+				35A3A4E31E6B956C00C9E616 /* TabBar */,
 				3566974F1E6572E40000CD83 /* Supporting Files */,
 				3566974A1E6571C70000CD83 /* segment */,
 				35B354D81E643F8500744D2B /* AppDelegate.swift */,
-				35B354DA1E643F8500744D2B /* ViewController.swift */,
 				35B354DF1E643F8500744D2B /* Assets.xcassets */,
 				35B354E41E643F8500744D2B /* Info.plist */,
-				35B354EA1E643FCD00744D2B /* ContactViewController.swift */,
-				35B354EC1E643FE600744D2B /* FriendsViewController.swift */,
 				35603B801E6461AC007C9525 /* LaunchScreen.storyboard */,
-				35B354EE1E643FF700744D2B /* MomentViewController.swift */,
-				35B354F01E64407100744D2B /* TabBarViewController.swift */,
-				35603B821E6463EA007C9525 /* UserViewController.swift */,
-				35A2B6EB1E6535B200E98ED0 /* NavigationViewController.swift */,
+				35A3A4E11E6B91B600C9E616 /* Login.storyboard */,
+				357007A11E6B1CBB008DE091 /* LoginViewController.swift */,
 				357B82BF1E6553ED009CDE59 /* Main.storyboard */,
 			);
 			path = XiaoYuan3.0;
@@ -177,6 +197,8 @@
 			files = (
 				357B82C01E6553ED009CDE59 /* Main.storyboard in Resources */,
 				356697531E6573340000CD83 /* XiaoxiCell.xib in Resources */,
+				35A3A4E21E6B91B600C9E616 /* Login.storyboard in Resources */,
+				35A4BD851E684FD200FDE934 /* UserImageCell.xib in Resources */,
 				35603B811E6461AC007C9525 /* LaunchScreen.storyboard in Resources */,
 				356697571E6573590000CD83 /* MomentCell.xib in Resources */,
 				35B354E01E643F8500744D2B /* Assets.xcassets in Resources */,
@@ -192,9 +214,10 @@
 			files = (
 				3566974E1E6571F80000CD83 /* MessagesViewController.swift in Sources */,
 				35A2B6EC1E6535B200E98ED0 /* NavigationViewController.swift in Sources */,
+				35A4BD841E684FD200FDE934 /* UserImageCell.swift in Sources */,
+				357007A21E6B1CBB008DE091 /* LoginViewController.swift in Sources */,
 				35603B831E6463EA007C9525 /* UserViewController.swift in Sources */,
 				35B354ED1E643FE600744D2B /* FriendsViewController.swift in Sources */,
-				35B354DB1E643F8500744D2B /* ViewController.swift in Sources */,
 				35B354EF1E643FF700744D2B /* MomentViewController.swift in Sources */,
 				3566974C1E6571E60000CD83 /* PeopleViewController.swift in Sources */,
 				356697561E6573590000CD83 /* MomentCell.swift in Sources */,
@@ -202,6 +225,7 @@
 				35B354F11E64407100744D2B /* TabBarViewController.swift in Sources */,
 				356697521E6573340000CD83 /* XiaoxiCell.swift in Sources */,
 				35B354EB1E643FCD00744D2B /* ContactViewController.swift in Sources */,
+				35A4BD871E68555D00FDE934 /* MomentModal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
