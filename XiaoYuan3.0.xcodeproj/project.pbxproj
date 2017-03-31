@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		353E8DC21E8E996C00B89E72 /* SetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E8DC11E8E996C00B89E72 /* SetViewController.swift */; };
+		3542476A1E8D372C00E09A79 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354247691E8D372C00E09A79 /* DatePickerViewController.swift */; };
+		354247A81E8D3C6A00E09A79 /* SetNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354247A71E8D3C6A00E09A79 /* SetNameViewController.swift */; };
+		354247AA1E8D454E00E09A79 /* UserMementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354247A91E8D454E00E09A79 /* UserMementViewController.swift */; };
+		354247AC1E8D4A0200E09A79 /* ChooseSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354247AB1E8D4A0200E09A79 /* ChooseSchoolViewController.swift */; };
+		354247AE1E8D4C6600E09A79 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354247AD1E8D4C6600E09A79 /* LocationViewController.swift */; };
+		354247B41E8D669100E09A79 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354247B31E8D669100E09A79 /* SettingsViewController.swift */; };
 		35603B811E6461AC007C9525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35603B801E6461AC007C9525 /* LaunchScreen.storyboard */; };
 		35603B831E6463EA007C9525 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35603B821E6463EA007C9525 /* UserViewController.swift */; };
 		3566974C1E6571E60000CD83 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3566974B1E6571E60000CD83 /* PeopleViewController.swift */; };
@@ -31,6 +38,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		353E8DC11E8E996C00B89E72 /* SetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetViewController.swift; sourceTree = "<group>"; };
+		354247691E8D372C00E09A79 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		354247A71E8D3C6A00E09A79 /* SetNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetNameViewController.swift; sourceTree = "<group>"; };
+		354247A91E8D454E00E09A79 /* UserMementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMementViewController.swift; sourceTree = "<group>"; };
+		354247AB1E8D4A0200E09A79 /* ChooseSchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseSchoolViewController.swift; sourceTree = "<group>"; };
+		354247AD1E8D4C6600E09A79 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		354247B31E8D669100E09A79 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		35603B801E6461AC007C9525 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35603B821E6463EA007C9525 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		3566974B1E6571E60000CD83 /* PeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +81,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		354247681E8D36E600E09A79 /* otherVC */ = {
+			isa = PBXGroup;
+			children = (
+				354247691E8D372C00E09A79 /* DatePickerViewController.swift */,
+				354247A71E8D3C6A00E09A79 /* SetNameViewController.swift */,
+				354247A91E8D454E00E09A79 /* UserMementViewController.swift */,
+				354247AB1E8D4A0200E09A79 /* ChooseSchoolViewController.swift */,
+				354247AD1E8D4C6600E09A79 /* LocationViewController.swift */,
+				353E8DC11E8E996C00B89E72 /* SetViewController.swift */,
+			);
+			name = otherVC;
+			sourceTree = "<group>";
+		};
 		3566974A1E6571C70000CD83 /* segment */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +120,7 @@
 		35A3A4E31E6B956C00C9E616 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				354247B31E8D669100E09A79 /* SettingsViewController.swift */,
 				35B354EA1E643FCD00744D2B /* ContactViewController.swift */,
 				35B354EC1E643FE600744D2B /* FriendsViewController.swift */,
 				35B354EE1E643FF700744D2B /* MomentViewController.swift */,
@@ -122,6 +150,7 @@
 		35B354D71E643F8500744D2B /* XiaoYuan3.0 */ = {
 			isa = PBXGroup;
 			children = (
+				354247681E8D36E600E09A79 /* otherVC */,
 				35A3A4E31E6B956C00C9E616 /* TabBar */,
 				3566974F1E6572E40000CD83 /* Supporting Files */,
 				3566974A1E6571C70000CD83 /* segment */,
@@ -214,15 +243,22 @@
 			files = (
 				3566974E1E6571F80000CD83 /* MessagesViewController.swift in Sources */,
 				35A2B6EC1E6535B200E98ED0 /* NavigationViewController.swift in Sources */,
+				354247A81E8D3C6A00E09A79 /* SetNameViewController.swift in Sources */,
+				354247B41E8D669100E09A79 /* SettingsViewController.swift in Sources */,
+				353E8DC21E8E996C00B89E72 /* SetViewController.swift in Sources */,
 				35A4BD841E684FD200FDE934 /* UserImageCell.swift in Sources */,
 				357007A21E6B1CBB008DE091 /* LoginViewController.swift in Sources */,
 				35603B831E6463EA007C9525 /* UserViewController.swift in Sources */,
+				354247AC1E8D4A0200E09A79 /* ChooseSchoolViewController.swift in Sources */,
+				354247AE1E8D4C6600E09A79 /* LocationViewController.swift in Sources */,
 				35B354ED1E643FE600744D2B /* FriendsViewController.swift in Sources */,
 				35B354EF1E643FF700744D2B /* MomentViewController.swift in Sources */,
 				3566974C1E6571E60000CD83 /* PeopleViewController.swift in Sources */,
 				356697561E6573590000CD83 /* MomentCell.swift in Sources */,
 				35B354D91E643F8500744D2B /* AppDelegate.swift in Sources */,
 				35B354F11E64407100744D2B /* TabBarViewController.swift in Sources */,
+				354247AA1E8D454E00E09A79 /* UserMementViewController.swift in Sources */,
+				3542476A1E8D372C00E09A79 /* DatePickerViewController.swift in Sources */,
 				356697521E6573340000CD83 /* XiaoxiCell.swift in Sources */,
 				35B354EB1E643FCD00744D2B /* ContactViewController.swift in Sources */,
 				35A4BD871E68555D00FDE934 /* MomentModal.swift in Sources */,

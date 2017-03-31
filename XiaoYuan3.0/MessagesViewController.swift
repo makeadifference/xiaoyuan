@@ -14,10 +14,10 @@ class MessagesViewController: UIViewController , UITableViewDelegate, UITableVie
         ["key" : "user1" ],
         ["key" : "user1" ]
     ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,15 +25,10 @@ class MessagesViewController: UIViewController , UITableViewDelegate, UITableVie
         // Dispose of any resources that can be recreated.
     }
     
-
-    
-    
     // TableView
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.testMessage.count
     }
-    
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
@@ -42,14 +37,5 @@ class MessagesViewController: UIViewController , UITableViewDelegate, UITableVie
         cell?.textLabel?.text = dictionary["key"]
         return cell!
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

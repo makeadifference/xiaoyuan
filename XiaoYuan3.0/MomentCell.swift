@@ -32,7 +32,7 @@ class MomentCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func fillDate(data : MomentModal){
+    func fillData(data : MomentModal){
         // 调用该方法向单元格填充数据
         self.userImage.image = UIImage(named: data.userName!)
         self.userName.text = data.userName!
@@ -40,6 +40,11 @@ class MomentCell: UITableViewCell {
        // self.postTime.text = data.postTime!      // 发布时间 date（timeintervalsince now ？）
        // 输出时间需要进行格式化，..分钟前, ...多少天前 ,,.. 月，日。。。 输出格式应为字符串。
         self.contentImage.image = UIImage(named: data.contentImage!)   // 需要实现一个用户从本地选择图片的接口
+    }
+    
+    // 设置时间
+    func setDate(date :Date) {
+        
     }
     
 }
